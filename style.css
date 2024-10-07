@@ -1,0 +1,203 @@
+body{
+    background-color: #c58f69;
+
+}
+.navbar {
+    background: linear-gradient(to right, #6d2a06, #c58f69);
+  }
+  .navbar .nav-link {
+    color: rgb(22, 20, 20) !important;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #ded3cd !important;
+  }
+  
+  .navbar .btn-primary {
+    background-color: #ff5fc7;
+    border-color: #eb3d69;
+  }
+  
+.hero {
+    background-image: url('assets/donut\ logo\ 2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c65a1e;
+}
+.logo-container {
+    background:  rgba(255, 255, 255, 0.659);
+    padding: 50px;
+    border-radius: 5px;   
+}
+
+#features {
+    background-color: #fff4e6;
+    padding: 60px;
+}
+.feature-card {
+    background-color: #de9b77;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.feature-card img {
+    max-width: 100%;
+    height: auto;
+}
+#features h2 {
+    color: #d2691e;
+    margin-bottom: 30px;
+}
+#features h4 {
+    color: #d2691e;
+    margin-top: 20px;
+}
+.feature-card h5 {
+    color: #000000;
+    margin-top: 15px;
+}
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+#features p {
+    color: #110f0f;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    height: 100%; 
+}
+
+.card-body {
+    flex: 1; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px; 
+}
+
+.card-text {
+    text-align: center; 
+}
+  
+    #testimonials {
+        background-color: #e9ecef;
+    }
+    #testimonials h2 {
+        color: #333;
+        margin-bottom: 40px;
+    }
+    .testimonial-card {
+        background-color: #de9b77;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    .testimonial-card p {
+        font-style: italic;
+        color: #111112;
+        margin-bottom: 10px;
+    }
+    .testimonial-card h5 {
+        color: #883c06;
+        font-weight: bold;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: #d2691e;
+        border-radius: 50%;
+    }
+
+    #pricing {
+        background-color: #fff4e6;
+    }
+    #pricing h2 {
+        color: #000;
+        margin-bottom: 30px;
+    }
+    .pricing-card {
+        background-color: #de9b77;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+    }
+    .pricing-card img {
+        width: 250px;
+        height: auto
+        
+    }
+    .pricing-card h5 {
+        color: #000; 
+        margin-top: 15px;
+    }
+    .pricing-card p {
+        color: #000; /* Black text for descriptions and prices */
+    }
+    .pricing-card .price {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #a64702;
+    }
+    .pricing-card button {
+        background-color: #d2691e;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+    }
+    .pricing-card button:hover {
+        background-color: #c65a1e;
+    }
+    .pricing-card:hover {
+        transform: translateY(-5px);
+    }
+
+.card {
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+
+#contact {
+    background-color: #f8f9fa;
+}
+#contact h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+#contact p {
+    color: #6c757d;
+    margin-bottom: 40px;
+}
+.form-control {
+    border-radius: 10px;
+}
+.btn-primary {
+    background-color: #cc6e2b;
+    border: none;
+    border-radius: 5px;
+}
+.btn-primary:hover {
+    background-color: #c65a1e;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+}
+footer p, footer a {
+    color: white;
+}
+footer a:hover {
+    color: #ffc107;
+}
